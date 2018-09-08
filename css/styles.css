@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: auto;
+    height: auto;
+    color: #333;
+    background: lightgrey;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px solid silver;
+    padding: 0% 1%;
+    float: left;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+header .left-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .right-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+hr {
+    display: block;
+    border: 0px;
+    width: 1px;
+    border-top: 1px solid black;
+    padding: 0;
+
+}
+
+footer {
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: black;
+    padding: 0 1%;
+    float: left;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+img {
+    max-width: 100%;
+    width: auto \9;
+}
+
+.sn {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.social-wrapper {
+    float: right;
+}
+
+#snt {
+    float: right;
+    color: white;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+/* Selection Block */
+::selection {
+    background: black;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: black;
+    color: #fff;
+}
+
+#logo {
+    position: relative;
+    font-size: 3em;
+    font-family: Comic Sans MS, sans-serif;
+    color: white;
+}
+
+.menu-button {
+    font-size: 1.5em;
+    font-family: Comic Sans MS, sans-serif;
+    margin: 0px 24px;
+}
+
+.right {
+    color: white;
+    float: right;
+}
+
+.left {
+    float: left;
+    color: white;
+}
+
+.field:focus {
+    border: 2px solid white;
+}
+
+#menu {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+}
+
+#menu hr {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#menuHrefs a {
+    font-family: Comic Sans MS, sans-serif;
+    padding: 5px;
+    color: black;
+}
+
+#menuHrefs a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#mainblock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
+    padding-bottom: 24px;
+}
+
+#mainblock #article {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#mainblock #article article {
+    width: 30%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 500px;
+}
+
+h1 {
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+input.field {
+    border-radius: 2px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+    outline: none;
+}
+
